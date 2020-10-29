@@ -7,12 +7,19 @@ body {
 
 
 .wrapper {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 5vh;
-    /* height: 100vh; */
+    height: 100vh;
     margin-bottom: 10vh;
+}
+@media screen and (max-width: 600px){
+    .wrapper{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 .grid-container {
@@ -71,7 +78,7 @@ body {
 .second:hover,
 .third:hover,
 .fourth:hover {
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 
 
@@ -110,12 +117,13 @@ body {
 .first-passage {
     font-weight: 600;
     color: white;
+    font-size: 22px;
 }
 
 .second-passage {
     font-weight: 500;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     opacity: 50%;
     margin-bottom: 20px;
 }
